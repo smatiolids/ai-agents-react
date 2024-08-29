@@ -1,0 +1,75 @@
+{
+    "flights": [
+      {
+        "passengerId": "P001",
+        "passengerName": "John Doe",
+        "flightNumber": "AA123",
+        "departureAirport": "JFK",
+        "arrivalAirport": "LAX",
+        "departureDateTime": "2024-09-15T08:00:00",
+        "arrivalDateTime": "2024-09-15T11:00:00",
+        "seatNumber": "12A",
+        "ticketClass": "Economy",
+        "ticketPrice": 350.00,
+        "bookingDate": "2024-08-01T10:30:00",
+        "bookingReference": "BR123456789"
+      },
+      {
+        "passengerId": "P002",
+        "passengerName": "Jane Smith",
+        "flightNumber": "BA456",
+        "departureAirport": "LHR",
+        "arrivalAirport": "JFK",
+        "departureDateTime": "2024-09-16T14:30:00",
+        "arrivalDateTime": "2024-09-16T17:30:00",
+        "seatNumber": "22B",
+        "ticketClass": "Business",
+        "ticketPrice": 1200.00,
+        "bookingDate": "2024-07-20T14:00:00",
+        "bookingReference": "BR987654321"
+      },
+      {
+        "passengerId": "P003",
+        "passengerName": "Alice Johnson",
+        "flightNumber": "DL789",
+        "departureAirport": "ATL",
+        "arrivalAirport": "ORD",
+        "departureDateTime": "2024-09-17T10:45:00",
+        "arrivalDateTime": "2024-09-17T12:15:00",
+        "seatNumber": "7C",
+        "ticketClass": "Economy",
+        "ticketPrice": 200.00,
+        "bookingDate": "2024-08-05T09:45:00",
+        "bookingReference": "BR564738291"
+      },
+      {
+        "passengerId": "P004",
+        "passengerName": "Bob Brown",
+        "flightNumber": "UA101",
+        "departureAirport": "SFO",
+        "arrivalAirport": "SEA",
+        "departureDateTime": "2024-09-18T16:00:00",
+        "arrivalDateTime": "2024-09-18T18:00:00",
+        "seatNumber": "3D",
+        "ticketClass": "First Class",
+        "ticketPrice": 650.00,
+        "bookingDate": "2024-08-10T11:15:00",
+        "bookingReference": "BR192837465"
+      },
+      {
+        "passengerId": "P005",
+        "passengerName": "Charlie Davis",
+        "flightNumber": "AF202",
+        "departureAirport": "CDG",
+        "arrivalAirport": "JFK",
+        "departureDateTime": "2024-09-19T09:00:00",
+        "arrivalDateTime": "2024-09-19T11:30:00",
+        "seatNumber": "14E",
+        "ticketClass": "Economy",
+        "ticketPrice": 500.00,
+        "bookingDate": "2024-08-15T08:00:00",
+        "bookingReference": "BR102938475"
+      }
+    ]
+  }
+  
