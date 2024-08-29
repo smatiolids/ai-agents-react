@@ -1,17 +1,12 @@
 import json
-from langchain.pydantic_v1 import BaseModel, Field
-from langchain.tools import BaseTool, StructuredTool, tool
 from langchain.prompts import PromptTemplate
 from langchain.schema import AgentAction, AgentFinish, agent
 from langchain.agents.format_scratchpad import format_log_to_str
 from langchain.tools.render import render_text_description
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.agents.output_parsers import ReActSingleInputOutputParser
 from langchain.tools import Tool
 from typing import List
-from langchain.load.dump import dumps
-from callbacks import AgentCallbackHandler
-from langchain.tools.retriever import create_retriever_tool
 from astra_tools import get_scheduled_flights, get_flight_detail
 import re
 import os
@@ -77,8 +72,7 @@ class TheFlightAgent:
         llm = ChatOpenAI(temperature=0,
                          model_name=os.getenv("OPENAI_MODEL"),
                          stop=["\nObservation"],
-                         # memory=memory,
-                         callbacks=[AgentCallbackHandler()])
+                         )
 
         self.agent = (
             {
