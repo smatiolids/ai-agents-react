@@ -28,7 +28,7 @@ def get_scheduled_flights(customer_id: str, conditions: dict) -> [str]:
     res = []
     for doc in flights:
         res.append(doc)
-    return doc
+    return res
 
 
 class ScheduledFlightDetailInput(BaseModel):
